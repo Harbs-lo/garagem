@@ -28,3 +28,4 @@ class VeiculoViewSet(ModelViewSet):
 
     def get_serializer_class(self):
         return self.serializer_classes.get(self.action, VeiculoSerializer)
+    
