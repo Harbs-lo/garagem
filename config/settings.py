@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     'uploader',
     'usuario',
     'garagem',
+    "django_extensions",
 ]
 
 MIDDLEWARE = [

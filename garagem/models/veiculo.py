@@ -5,7 +5,7 @@ from uploader.models import Image
 
 
 class Veiculo(models.Model):
-    descricao = models.CharField(max_length=100, default="")
+    descricao = models.CharField(max_length=100, null=True, blank=True ,default="")
     preco = models.DecimalField(
         max_digits=10, decimal_places=2, default=0, null=True, blank=True
     )
