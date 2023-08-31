@@ -26,8 +26,8 @@ class Veiculo(models.Model):
         Image,
         related_name="+",
         on_delete=models.CASCADE,
-        null=True,
-        blank=True,
+        null=False,
+        blank=False,
         default=None,
     )
 
